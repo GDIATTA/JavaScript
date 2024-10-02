@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>Function</h1>
+
+<p>This demonstrates a regular function, NOT an arrow function.</p>
+
+<p id="demo"></p>
+  
+<script>
+/* 1)Create a regular function which allow to return "Hello world!"
+
+hello = function() {
+  return "Hello World!";
+}
+  */
+ /* 2) Create  an Arrow function which allow to return "Hello World!"
+ 
+ hello = () => {
+    return "Hello World!";
+ }
+    */
+/* 3) Create an arrow function which take a parameter val 
+*/
+hello = (val) => "Hello "+ val;
+
+document.getElementById("demo").innerHTML = hello("World!");
+</script>
+
+</body>
+</html>
